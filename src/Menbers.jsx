@@ -1,4 +1,4 @@
-const members = [
+let members = [
   { 
     name: 'Bill Mahoney', 
     title: 'DUEÑO DEL PRODUCTO', 
