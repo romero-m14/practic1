@@ -1,4 +1,4 @@
-let Members = [
+let Menbers = [
   { 
     name: 'Bill Mahoney', 
     title: 'DUEÑO DEL PRODUCTO', 
@@ -31,4 +31,4 @@ let Members = [
   }
 ];
 
-export default Members;
+export default Menbers;

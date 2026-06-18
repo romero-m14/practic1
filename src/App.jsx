@@ -1,5 +1,5 @@
-import Members from "./Menbers";
-import CardUser from "./CardUser";
+import Menbers from "./Menbers.jsx"; 
+import CardUser from "./CardUser.jsx"; 
 
 function obtenerClaseDesfase(index) {
   const desfaces = {
@@ -10,13 +10,13 @@ function obtenerClaseDesfase(index) {
   };
   return desfaces[index] || "";
 }
+
 function App() {
   return (
     <>
       <div className="min-h-screen bg-[#10141e] text-white font-sans px-4 py-8 sm:px-8 md:px-16 lg:px-24">
         
         <header className="flex flex-col md:flex-row justify-between items-start gap-6 mb-12 md:mb-24">
-          
           <h1 className="text-3xl md:text-4xl font-serif font-bold tracking-tight w-full md:w-1/3">
             The creative crew
           </h1>
@@ -39,8 +39,9 @@ function App() {
             </div>
           </div>
         </header>
+
         <main className="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-12 sm:gap-x-8 lg:gap-x-12 lg:gap-y-16">
-          {members.map((persona, index) => (
+          {Menbers.map((persona, index) => (
             <GridItemWrapper key={index}>
               <CardUser data={persona} clasedesfase={obtenerClaseDesfase(index)} />
             </GridItemWrapper>
