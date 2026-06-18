@@ -2,32 +2,32 @@ let Menbers = [
   { 
     name: 'Bill Mahoney', 
     title: 'DUEÑO DEL PRODUCTO', 
-    img: '/images/photo1.png' 
+    img: '/photo1.png' 
   },
   { 
     name: 'Saba Cabrera', 
     title: 'DIRECTORA DE ARTE', 
-    img: '/images/photo2.png' 
+    img: '/photo2.png' 
   },
   { 
     name: 'Shae Le', 
     title: 'LÍDER TÉCNICO', 
-    img: '/images/photo3.png' 
+    img: '/photo3.png' 
   },
   { 
     name: 'Skylah Lu', 
     title: 'DISEÑADORA UX', 
-    img: '/images/photo4.png' 
+    img: '/photo4.png' 
   },
   { 
     name: 'Griff Richards', 
     title: 'DESARROLLADOR', 
-    img: '/images/photo5.png' 
+    img: '/photo5.png' 
   },
   { 
     name: 'Stan John', 
     title: 'DESARROLLADOR', 
-    img: '/images/photo6.png' 
+    img: '/photo6.png' 
   }
 ];
 
