@@ -1,5 +1,5 @@
-import CardUser from "./CardUser.jsx";
-import Members from "./Menbers.jsx"
+import Members from "./Menbers";
+import CardUser from "./CardUser";
 
 function obtenerClaseDesfase(index) {
   const desfaces = {
